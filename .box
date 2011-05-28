@@ -1,11 +1,4 @@
 ################################################
-## GENERAL SETTINGS
-################################################
-shared_writable_dirs:
-    - app/cache
-    - app/logs
-
-################################################
 ## WEB SPECIFIC SETTINGS
 ################################################
 document_root: web
@@ -15,7 +8,8 @@ index_list: [index.php]
 ################################################
 ## PHP SPECIFIC SETTINGS
 ################################################
-php_version: 5.3.5
+php_display_errors: Off
+php_error_reporting: 'E_ALL ^ E_NOTICE'
 php_extensions: [apc]
 php_short_open_tag: Off
-magic_quotes_gpc: Off
+php_version: 5.3.5
