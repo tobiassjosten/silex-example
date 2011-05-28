@@ -5,14 +5,14 @@ Silex example for Pagodabox.com
 
 ## Instructions
 
-1. Clone the Git repository and be sure to pull down the submodules.
+1) Clone the Git repository and be sure to pull down the submodules.
 
 ```
 $ git clone git@github.com:tobiassjosten/silex-example.git
 $ git submodule update --init
 ```
 
-2. Check to see if you are using the latest version of Silex and update if not.
+2) Check to see if you are using the latest version of Silex and update if not.
 
 ```
 $ cd vendor/silex
@@ -20,7 +20,7 @@ $ php silex.phar check
 $ php silex.phar update
 ```
 
-3. Deploy it to Pagoda!
+3) Deploy it to Pagoda!
 
 [1]: http://silex-project.org/
 [2]: http://symfony.com/
