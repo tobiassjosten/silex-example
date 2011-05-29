@@ -12,16 +12,11 @@ $ git clone git@github.com:tobiassjosten/silex-example.git
 $ git submodule update --init
 ```
 
-2) Check to see if you are using the latest version of Silex and update if not.
-
-```
-$ cd vendor/silex
-$ php silex.phar check
-$ php silex.phar update
-```
+3) Download the latest [`silex.phar`][4] file to *vendor/silex/silex.phar*.
 
 3) Deploy it to Pagoda!
 
 [1]: http://silex-project.org/
 [2]: http://symfony.com/
 [3]: http://www.pagodabox.com/
+[4]: http://silex-project.org/get/silex.phar
